@@ -10,3 +10,27 @@ inputBox.addEventListener('keyup', function (event) {
         addTask();
     }
 });
+
+// Function to add a new task
+function addTask() {
+    // Check if the input box is empty
+    if (inputBox.value === '') {
+        alert("You must write something!");
+    } else {
+        // Create a new list item
+        let li = document.createElement("li");
+        // Set the content of the list item to the input value
+        li.innerHTML = inputBox.value;
+        // Append the list item to the list container
+        listContainer.appendChild(li);
+        // Create a span element to represent a delete button
+        let span = document.createElement("span");
+        span.innerHTML = "\u00D7"; // The 'x' character for the delete button
+        // Append the delete button to the list item
+        li.appendChild(span);
+    }
+    // Clear the input box
+    inputBox.value = "";
+    // Save the updated list to local storage
+    saveData();
+}
