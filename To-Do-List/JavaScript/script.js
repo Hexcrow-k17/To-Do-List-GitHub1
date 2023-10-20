@@ -34,3 +34,18 @@ function addTask() {
     // Save the updated list to local storage
     saveData();
 }
+
+// Event listener for clicks on list items and delete buttons
+listContainer.addEventListener("click", function (e) {
+    if (e.target.tagName === "LI") {
+        // Toggle the 'checked' class on list items when clicked
+        e.target.classList.toggle("checked");
+        // Save the updated list to local storage
+        saveData();
+    } else if (e.target.tagName === "SPAN") {
+        // Remove the parent list item when the delete button is clicked
+        e.target.parentElement.remove();
+        // Save the updated list to local storage
+        saveData();
+    }
+}, false);
