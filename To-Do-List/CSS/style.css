@@ -40,3 +40,9 @@ body{
     align-items: center;
     margin-bottom: 20px;
 }
+
+/* Style for the to-do app icon */
+.todo-app img {
+    width: 30px;
+    margin-left: 10px;
+}
