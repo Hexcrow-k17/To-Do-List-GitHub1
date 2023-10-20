@@ -54,3 +54,8 @@ listContainer.addEventListener("click", function (e) {
 function saveData() {
     localStorage.setItem("data", listContainer.innerHTML);
 }
+
+// Function to load and display the saved tasks from local storage
+function showTask() {
+    listContainer.innerHTML = localStorage.getItem("data");
+}
