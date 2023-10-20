@@ -102,3 +102,9 @@ ul li::before {
     top: 12px;
     left: 8px;
 }
+
+/* Style for checked list items */
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
