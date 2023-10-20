@@ -57,3 +57,12 @@ body{
     padding-left: 20px;
     margin-bottom: 25px;
 }
+
+/* Style for input elements */
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
