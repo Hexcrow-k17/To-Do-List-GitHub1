@@ -108,3 +108,8 @@ ul li.checked {
     color: #555;
     text-decoration: line-through;
 }
+
+/* Style for the checkbox icon of checked list items */
+ul li.checked::before {
+    background-image: url(../Pictures/checked.png); /* Customize this URL */
+}
