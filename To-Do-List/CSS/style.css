@@ -14,3 +14,11 @@ body{
     min-height: 100vh;
     background: #e9ecef;
 }
+
+/* Style for the main container */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
+}
