@@ -59,3 +59,13 @@ function saveData() {
 function showTask() {
     listContainer.innerHTML = localStorage.getItem("data");
 }
+
+// Load and display the saved tasks when the page loads
+showTask();
+
+const toggleButton = document.querySelector('.toggle');
+const menu = document.querySelector('.menu');
+
+toggleButton.addEventListener('click', () => {
+    menu.classList.toggle('active');
+});
