@@ -1,0 +1,16 @@
+/* To-Do-liste */
+/* Reset default margin, padding, and box-sizing behavior for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: JetBrainsMono-Light;
+}
+
+body{
+    display: flex;
+    justify-content: ceonter;
+    align-items: ceonter;
+    min-height: 100vh;
+    background: #e9ecef;
+}
