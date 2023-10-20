@@ -88,3 +88,17 @@ ul li {
     cursor: pointer;
     position: relative;
 }
+
+/* Style for the checkbox icon before list items */
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(../Pictures/unchecked.png); /* Customize this URL */
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
