@@ -127,3 +127,8 @@ ul li span {
     text-align: center;
     border-radius: 50%;
 }
+
+* Style for the delete button on hover */
+ul li span:hover {
+    background: #edeef0;
+}
