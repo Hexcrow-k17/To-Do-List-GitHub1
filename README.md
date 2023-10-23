@@ -1,5 +1,5 @@
 ########## To-Do-List-GitHub1
-#HTML Forklaring
+# HTML Forklaring
 
     HTML-dokumentet starter med de nødvendige metadata og en kobling til en ekstern CSS-fil.
 
